@@ -3,59 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cashout Management App - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        section {
-            padding: 1rem 0;
-        }
-        h2 {
-            color: #0070f3;
-        }
-        pre {
-            background: #f4f4f4;
-            padding: 1rem;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        a {
-            color: #0070f3;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Cashout Management App</h1>
+        <h1>Cashout Management App Intern Program From Balancee</h1>
     </header>
     <div class="container">
         <section>
             <h2>Overview</h2>
-            <p>The Cashout Management App is a comprehensive solution for managing earnings, cashout options, and cashback history. Built with React and Chakra UI, this application provides a user-friendly interface to track earnings, perform cashouts, and view detailed cashback history. its For an Intern Program in <h2>Belancee</h2>h2></p>
+            <p>The Cashout Management App is a comprehensive solution for managing earnings, cashout options, and cashback history. Built with React and Chakra UI, this application provides a user-friendly interface to track earnings, perform cashouts, and view detailed cashback history. its For an Intern Program in <b>Belancee</b></p>
         </section>
         <section>
             <h2>Features</h2>
@@ -100,10 +56,11 @@
             <ul>
                 <li><strong>src/</strong>: Contains the application's source code.
                     <ul>
-                        <li><strong>components/</strong>: Reusable components such as <code>EarningsOverview</code>, <code>CashoutOptions</code>, and <code>CashbackHistory</code>.</li>
+                        <li><strong>components/</strong>: Reusable components such as <code>EarningsOverview</code>, <code>CashoutOptions</code>, <code>CashoutModal</code>, <code>PromoCodeModal</code>, <code>Logo</code> and <code>CashbackHistory</code>.</li>
                         <li><strong>mockData.js</strong>: Simulated data for development and testing.</li>
                         <li><strong>App.jsx</strong>: Main application component integrating other components.</li>
                         <li><strong>index.js</strong>: Entry point for the React application.</li>
+                        <li><strong>Theme.js</strong>: Customize the Chakra UI theme</li>
                     </ul>
                 </li>
             </ul>
